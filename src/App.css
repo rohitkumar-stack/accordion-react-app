@@ -1,0 +1,26 @@
+
+.accordion {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.accordion-body {
+  padding: 15px;
+  background-color: #fff;
+}
